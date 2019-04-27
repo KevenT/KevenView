@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.keven.ripplediffusionview.view.RippleDiffusionView
+        android:id="@+id/RippleDiffusionView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:rdcolor="@color/colorAccent"
+        app:rdspeed="1000"
+        app:rdcount="8"
+        app:rdisFill="true"
+        />
+    <com.keven.ripplediffusionview.view1.SpreadView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:color="@color/colorAccent"
+        app:speed="1"
+        app:jumpnum="3"
+        app:gap="12"
+        app:isFill="true"/>
+
+    <Button
+        android:id="@+id/change"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="change style"/>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/change"
+        android:layout_centerHorizontal="true"
+        android:text="start"/>
+
+</RelativeLayout>
