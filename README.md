@@ -1,11 +1,14 @@
 # KevenView
 The ripple custom view.
 
-
-- RippleDiiusionView 水波扩散效果
-
 # Screenshot
 ![](https://github.com/rhinoSp/RippleDiffusionView/blob/master/screenrecord/screenrecord.gif)  
+
+# KevenView自定义View系列
+
+ - [RippleDiiusionView 水波扩散效果](https://github.com/KevenT/KevenView)
+ - [Keven_View系列之——叶子旋转加载动画](https://github.com/KevenT/leaft_rotate_loading)
+
 
 # Question / Contact Me / Hire Me
 
